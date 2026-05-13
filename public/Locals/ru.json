@@ -5,5 +5,8 @@
       "services": "Услуги",
       "work": "Работы",
       "blog": "Блог"
+    },
+    "hero": {
+      "hero-title": "Biz sizning MateDesigners jamoangiz"
     }
   }

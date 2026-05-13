@@ -5,5 +5,8 @@
       "services": "Services",
       "work": "Work",
       "blog": "Blog"
+    },
+    "hero": {
+        "hero-title": "We are your MateDesigners"
     }
   }
