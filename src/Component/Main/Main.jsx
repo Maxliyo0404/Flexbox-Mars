@@ -12,8 +12,33 @@ function Main() {
                 <ul  className="main-list">
                     <li className="main-item">
                         <img src={} alt="main" />
-                        <h2 className="main-title"></h2>
-                        <p className="main-text"></p>
+                        <h2 className="main-title">{t("main.main-title")}</h2>
+                        <p className="main-text">{t("main.main-text")}</p>
+                    </li>
+                    <li className="main-item">
+                        <img src={} alt="main" />
+                        <h2 className="main-title">{t("main.main-title")}</h2>
+                        <p className="main-text">{t("main.main-text")}</p>
+                    </li>
+                    <li className="main-item">
+                        <img src={} alt="main" />
+                        <h2 className="main-title">{t("main.main-title")}</h2>
+                        <p className="main-text">{t("main.main-text")}</p>
+                    </li>
+                    <li className="main-item">
+                        <img src={} alt="main" />
+                        <h2 className="main-title">{t("main.main-title")}</h2>
+                        <p className="main-text">{t("main.main-text")}</p>
+                    </li>
+                    <li className="main-item">
+                        <img src={} alt="main" />
+                        <h2 className="main-title">{t("main.main-title")}</h2>
+                        <p className="main-text">{t("main.main-text")}</p>
+                    </li>
+                    <li className="main-item">
+                        <img src={} alt="main" />
+                        <h2 className="main-title">{t("main.main-title")}</h2>
+                        <p className="main-text">{t("main.main-text")}</p>
                     </li>
                 </ul>
             </div>
