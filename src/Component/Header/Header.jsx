@@ -16,7 +16,7 @@ function Header() {
 
   return (
      <>
-      <div className="Header">
+      <div className="header">
   <div className="container">
     <div className="header-wrapper">
       
