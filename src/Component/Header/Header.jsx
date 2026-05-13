@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 import React, { useState } from 'react'
-import logos_1 from "./image/logos_1.svg";
+import logo_1 from "./image/logo_1.svg";
+import i18next from "i18next"
 
 function Header() {
     const {t, i18n} = useTranslation();
@@ -20,10 +21,8 @@ function Header() {
     <div className="header-wrapper">
       
       <a className="logo" href="#">
-        <img src={logos_1} alt="logo" />
-        {t("header.logos")}
-      </a>
-
+  <img src={logo_1} alt="logo" />
+</a>
    
       <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
         <ul className="header-list">
