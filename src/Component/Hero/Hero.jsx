@@ -2,8 +2,11 @@ import "./Hero.css";
 import React from 'react'
 
 function Hero() {
+    const 
   return (
-    <div>Hero</div>
+    <>
+    
+    </>
   )
 }
 
