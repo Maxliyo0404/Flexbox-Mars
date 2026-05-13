@@ -20,10 +20,11 @@
     font-size: 18px;
     line-height: 100%;
     transition: 0.3s;
-    display: block;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
     font-family: "Inter", sans-serif;
 }
-
 .footer-link:hover {
     color: #3360FF;
     text-decoration: underline;
@@ -31,30 +32,26 @@
 @media (max-width: 628px) {
     .footer-wrapper {
         flex-direction: column; 
-        gap: 20px;
+        gap: 10px;
         text-align: center;
         padding: 30px 0;
     }
-
     .footer-list {
-        gap: 15px;
+        gap: 10px;
         justify-content: center;
         padding: 0;
+        flex-wrap: wrap;
+        margin-top: -30px;
     }
-    
     .footer-link {
-        font-size: 16px;
-        
+        font-size: 16px; 
     }
 }
-
-
 @media (max-width: 480px) {
     .footer-list {
        flex-wrap: wrap;
-        gap: 5px;
+        gap: 10px;
     }
-
     .footer-link {
         font-size: 15px;
         line-height: 20px;
