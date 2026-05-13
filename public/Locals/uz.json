@@ -1,0 +1,9 @@
+{
+    "header":{
+       "home": "Bosh sahifa",
+      "about": "Biz haqimizda",
+      "services": "Xizmatlar",
+      "work": "Ishlarimiz",
+      "blog": "Blog"
+    }
+}
