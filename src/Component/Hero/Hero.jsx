@@ -9,7 +9,7 @@ function Hero() {
       <div className="hero">
         <div className="container">
             <div className="hero-wrapper">
-                <h1 className="hero-title"></h1>
+                <h1 className="hero-title">{t("hero.hero-title")}</h1>
             </div>
         </div>
       </div>
