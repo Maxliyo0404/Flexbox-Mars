@@ -1,0 +1,9 @@
+
+
+.hero-wrapper{
+    max-width: 784px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 114px 0;
+}
