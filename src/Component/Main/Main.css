@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.main-wrapper{
+    padding: 40px 0;
+}
+.main-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+.main-item{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+    object-fit: cover;
+}
+.main-title{
+    max-width: 100%;
+     text-align: center;
+     color: #000000;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+   
+}
+.main-text{
+    max-width: 100%;
+     color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    font-family: "Inter", sans-serif;
+   
+}
+@media (max-width: 1024px) {
+    .main-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+        gap: 20px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .main-list {
+        grid-template-columns: 1fr; 
+        gap: 40px; 
+    }
+    .main-item{
+        text-align: center;
+    }
+    .main-title {
+        font-size: 22px;
+    }
+    .main-text {
+        text-align: center; 
+        font-size: 12px; 
+    }
+    img {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 20px;
+    }
+    .main-text {
+        line-height: 20px;
+    }
+}

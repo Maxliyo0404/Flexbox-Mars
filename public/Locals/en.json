@@ -14,5 +14,12 @@
         "main-title2":"Content Reel",
         "main-title3":"Status Annotations",
         "main-text" : "All of us, designers, at least once per career became an illustrator, copyrighter and only God knows whom else. Out of the question it’s useful and interesting experience, but when we have some time limits we need a special magic."
+    },
+     "footer": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "work": "Work",
+      "blog": "Blog"
     }
   }

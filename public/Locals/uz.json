@@ -14,5 +14,12 @@
       "main-title2": "Kontent to'plami",
       "main-title3": "Holat izohlari",
       "main-text": "Har birimiz, dizaynerlar, faoliyatimiz davomida kamida bir marta illyustrator, kopirayter va yana kimlardir bo'lishimizga to'g'ri kelgan. Shubhasiz, bu foydali va qiziqarli tajriba, ammo vaqt cheklangan bo'lsa, bizga maxsus sehr kerak bo'ladi."
+    },
+    "footer":{
+       "home": "Bosh sahifa",
+      "about": "Biz haqimizda",
+      "services": "Xizmatlar",
+      "work": "Ishlarimiz",
+      "blog": "Blog"
     }
 }
