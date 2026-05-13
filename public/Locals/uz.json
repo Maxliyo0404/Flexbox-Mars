@@ -5,5 +5,8 @@
       "services": "Xizmatlar",
       "work": "Ishlarimiz",
       "blog": "Blog"
+    },
+    "hero": {
+      "hero-title": "Biz sizning MateDesigners jamoangiz"
     }
 }
