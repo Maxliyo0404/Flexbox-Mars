@@ -3,6 +3,10 @@ import "./Main.css";
 import React from 'react'
 import main_1 from "./image/main_1.svg";
 import main_2 from "./image/main_2.svg";
+import main_3 from "./image/main_3.svg";
+import main_4 from "./image/main_4.svg";
+import main_5 from "./image/main_5.svg";
+import main_6 from "./image/main_6.svg";
 
 
 function Main() {
