@@ -28,22 +28,22 @@ function Main() {
                         <p className="main-text">{t("main.main-text")}</p>
                     </li>
                     <li className="main-item">
-                        <img src={} alt="main" />
+                        <img src={main_3} alt="main" />
                         <h2 className="main-title">{t("main.main-title3")}</h2>
                         <p className="main-text">{t("main.main-text")}</p>
                     </li>
                     <li className="main-item">
-                        <img src={} alt="main" />
+                        <img src={main_4} alt="main" />
                         <h2 className="main-title">{t("main.main-title1")}</h2>
                         <p className="main-text">{t("main.main-text")}</p>
                     </li>
                     <li className="main-item">
-                        <img src={} alt="main" />
+                        <img src={main_5} alt="main" />
                         <h2 className="main-title">{t("main.main-title2")}</h2>
                         <p className="main-text">{t("main.main-text")}</p>
                     </li>
                     <li className="main-item">
-                        <img src={} alt="main" />
+                        <img src={main_6} alt="main" />
                         <h2 className="main-title">{t("main.main-title3")}</h2>
                         <p className="main-text">{t("main.main-text")}</p>
                     </li>
