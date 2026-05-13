@@ -27,10 +27,11 @@ function Header() {
    
       <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
         <ul className="header-list">
-          <li><a className="header-link">{t("header.service")}</a></li>
+          <li><a className="header-link">{t("header.home")}</a></li>
           <li><a className="header-link">{t("header.about")}</a></li>
-          <li><a className="header-link">{t("header.faq")}</a></li>
-          <li><a className="header-link">{t("header.contact")}</a></li>
+          <li><a className="header-link">{t("header.services")}</a></li>
+          <li><a className="header-link">{t("header.work")}</a></li>
+          <li><a className="header-link">{t("header.blog")}</a></li>
         </ul>
         
         <div className="header-actions">
@@ -39,11 +40,8 @@ function Header() {
             <option value="en">Eng</option>
             <option value="ru"> Rus</option>
           </select>
-          <button className="header-btn">{t("header.btn")}</button>
         </div>
       </nav>
-
-   
       <div className={`burger-menu ${isMenuOpen ? "active" : ""}`} onClick={toggleMenu}>
         <span></span>
         <span></span>
